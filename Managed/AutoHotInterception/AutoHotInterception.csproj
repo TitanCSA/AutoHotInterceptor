@@ -1,0 +1,5 @@
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<PropertyGroup><Configuration Condition="'$(Configuration)'==''">Release</Configuration><OutputType>Library</OutputType><AssemblyName>AutoHotInterception</AssemblyName><TargetFrameworkVersion>v4.8</TargetFrameworkVersion><OutputPath>../../obj/Managed/</OutputPath><Optimize>true</Optimize><LangVersion>latest</LangVersion></PropertyGroup>
+<ItemGroup><Reference Include="System"/><Reference Include="System.Core"/><Reference Include="Microsoft.CSharp"/><Compile Include="**/*.cs" Exclude="obj/**;bin/**"/></ItemGroup>
+<Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets"/>
+</Project>
