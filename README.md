@@ -2,6 +2,17 @@
 
 Use **AutoHotkey v1 or v2** with the **Microsoft-signed Interceptor Keyboard & Mouse kernel filter driver**. Run different hotkeys on different keyboards, subscribe to mouse movement and buttons, block selected events, or forward modified input through the original Windows device path.
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full driver version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full driver version without the demo time limit**, and mention **AutoHotInterceptor**.
+>
+> The demo limit belongs to **Interceptor Keyboard & Mouse**, the driver used by this project. Ask for pricing and the appropriate license / activation instructions; the application or wrapper source keeps its existing license.
+<!-- full-version-contact:end -->
+
 **[Download](https://github.com/TitanCSA/AutoHotInterceptor/releases/latest)** · [API guide](docs/API.md) · [Build and tests](docs/BUILD.md) · [Driver](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse)
 
 This is an adaptation of [evilC/AutoHotInterception](https://github.com/evilC/AutoHotInterception), by Clive Galway. It preserves the `AutoHotInterception` class and its subscription/context interfaces, using TitanCSA's driver instead of the original Interception DLL. Stock AutoHotkey remains unmodified: ordinary hotkeys, GUIs, timers and scripts still work normally.
