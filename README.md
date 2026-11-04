@@ -1,5 +1,11 @@
 # AutoHotInterceptor
 
+The matching Interceptor-Keyboard-Mouse demo driver source is available; see
+[driver/README.md](driver/README.md) for build instructions and separate
+evaluation-source terms. Those terms apply to Titan-authored driver code. Third-party
+source licenses and existing application/SDK licenses remain applicable. Full/commercial
+implementation and private signing or activation material are excluded.
+
 Use **AutoHotkey v1 or v2** with the **Microsoft-signed Interceptor Keyboard & Mouse kernel filter driver**. Run different hotkeys on different keyboards, subscribe to mouse movement and buttons, block selected events, or forward modified input through the original Windows device path.
 
 <!-- full-version-contact:start -->
@@ -86,7 +92,7 @@ Managed/  Native/        Buildable user-mode wrappers and two-file SDK
 Tests/  docs/  licenses/ Tests, instructions, upstream/binary terms
 ```
 
-User-mode wrapper changes are MIT; original notices are retained. Portable AutoHotkey is GPL-2.0 and its exact corresponding sources are supplied in a separate release archive. Driver binaries have [separate demo terms](licenses/DRIVER.txt). **No kernel source is included.** [Attribution](NOTICE).
+User-mode wrapper changes are MIT; original notices are retained. Portable AutoHotkey is GPL-2.0 and its exact corresponding sources are supplied in a separate release archive. Driver binaries have [separate demo terms](licenses/DRIVER.txt). **Demo/evaluation driver source is documented in [driver/README.md](driver/README.md).** [Attribution](NOTICE).
 
 ## Responsible use
 
