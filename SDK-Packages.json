@@ -3,21 +3,15 @@
   "packages": [
     {
       "directory": "packaging/native",
-      "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts",
-      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
-    },
-    {
-      "directory": "packaging/native",
-      "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts",
-      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
-    },
-    {
-      "directory": "packaging/native",
-      "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts",
-      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.AutoHotInterceptor.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
     },
     {
       "directory": "AutoHotInterceptor-NET-nuget",
@@ -29,5 +23,73 @@
   "native_source_archive": {
     "url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/sdk-v1.0.0/autohotinterceptor-sdk-1.0.0.tar.gz",
     "sha256": "0f26e0ca6ec3273a58f66d50dd6579ef7be68e130223438b2f86cee5b6136dd3"
-  }
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "2a5f4f4037f5fbd911344250e43e7a1d48e04fe6",
+      "port": "autohotinterceptor-sdk",
+      "microsoft_curated_registry": false
+    },
+    "CPP/conan": {
+      "status": "public_recipe_builds_locally",
+      "conan_center": false,
+      "directory": "AutoHotInterceptor-CPP-conan",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "paused_pending_owner_email_confirmation",
+      "name": "AutoHotInterceptor.Native",
+      "version": "1.0.0",
+      "registry_published": false,
+      "consumer_build_verified": true,
+      "documentation_bundled": true
+    },
+    "NET/nuget": {
+      "status": "paused_pending_owner_email_confirmation",
+      "name": "AutoHotInterceptor",
+      "version": "1.0.1",
+      "registry_published": false,
+      "consumer_build_verified": true,
+      "documentation_bundled": true
+    },
+    "Python/pypi": {
+      "status": "binding_not_implemented"
+    },
+    "Python/conda-forge": {
+      "status": "binding_not_implemented"
+    },
+    "Rust/cargo": {
+      "status": "binding_not_implemented"
+    },
+    "JavaScript/npm": {
+      "status": "binding_not_implemented"
+    },
+    "Java/maven": {
+      "status": "binding_not_implemented"
+    },
+    "Java/jitpack": {
+      "status": "binding_not_implemented"
+    },
+    "Go/modules": {
+      "status": "binding_not_implemented"
+    },
+    "Go/pkg-go-dev": {
+      "status": "binding_not_implemented"
+    },
+    "PowerShell/gallery": {
+      "status": "binding_not_implemented"
+    },
+    "Dart/pub-dev": {
+      "status": "binding_not_implemented"
+    },
+    "Ruby/rubygems": {
+      "status": "binding_not_implemented"
+    },
+    "PHP/packagist": {
+      "status": "binding_not_implemented"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
 }
