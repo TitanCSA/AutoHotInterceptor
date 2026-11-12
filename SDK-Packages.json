@@ -1,0 +1,26 @@
+{
+  "project": "AutoHotInterceptor",
+  "packages": [
+    {
+      "directory": "AutoHotInterceptor-CPP-vcpkg",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "AutoHotInterceptor-CPP-conan",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "AutoHotInterceptor-CPP-nuget",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "AutoHotInterceptor-NET-nuget",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented."
+}
