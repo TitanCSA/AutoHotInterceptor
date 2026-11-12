@@ -11,3 +11,11 @@ licensing remain unchanged. The native DLLs are copied beside the application un
 
 Build the package with `dotnet pack -c Release`. NuGet.org publication requires the
 owner's account and credentials. Source: https://github.com/TitanCSA/AutoHotInterceptor
+
+## Install from NuGet
+
+```sh
+dotnet add package AutoHotInterceptor --version 1.0.1
+```
+
+[Source and API](https://github.com/TitanCSA/AutoHotInterceptor)
