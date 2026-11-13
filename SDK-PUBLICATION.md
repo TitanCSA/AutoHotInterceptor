@@ -6,12 +6,12 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | autohotinterceptor |
 | CPP/conan | published_custom_source_index | [autohotinterceptor](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
-| CPP/nuget | account_email_confirmed_requires_matching_trusted_publishing_policy | AutoHotInterceptor.Native |
-| NET/nuget | account_email_confirmed_requires_matching_trusted_publishing_policy | AutoHotInterceptor |
+| CPP/nuget | published_payload_verified | [AutoHotInterceptor.Native](https://www.nuget.org/packages/AutoHotInterceptor.Native/1.0.0) |
+| NET/nuget | published_payload_verified | [AutoHotInterceptor](https://www.nuget.org/packages/AutoHotInterceptor/1.0.1) |
 | Python/pypi | built_fixture_and_production_verified | autohotinterceptor [Source](AutoHotInterceptor-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [autohotinterceptor](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [autohotinterceptor](https://crates.io/crates/autohotinterceptor) [Source](AutoHotInterceptor-Rust-cargo/) |
-| JavaScript/npm | registry_publication_requires_action | [autohotinterceptor](https://www.npmjs.com/package/autohotinterceptor) [Source](AutoHotInterceptor-JavaScript-npm/) |
+| JavaScript/npm | submitted_requires_indexing | autohotinterceptor [Source](AutoHotInterceptor-JavaScript-npm/) |
 | Java/maven | published_install_verified | [autohotinterceptor](https://central.sonatype.com/artifact/io.github.titancsa/autohotinterceptor/1.0.0) [Source](AutoHotInterceptor-Java-maven/) |
 | Java/jitpack | published_install_verified | [autohotinterceptor](https://jitpack.io/#TitanCSA/AutoHotInterceptor/java-sdk-v1.0.0) [Source](AutoHotInterceptor-Java-maven/) |
 | Go/modules | published_install_verified | [autohotinterceptor](https://pkg.go.dev/github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0) [Source](AutoHotInterceptor-Go-modules/) |
