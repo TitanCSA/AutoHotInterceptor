@@ -5,11 +5,11 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Target | Status | Package / documentation |
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | autohotinterceptor |
-| CPP/conan | public_recipe_builds_locally |  [Source](packaging/native/) |
+| CPP/conan | published_custom_source_index | [autohotinterceptor](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
 | CPP/nuget | paused_pending_owner_email_confirmation | AutoHotInterceptor.Native |
 | NET/nuget | paused_pending_owner_email_confirmation | AutoHotInterceptor |
 | Python/pypi | built_fixture_and_production_verified | autohotinterceptor [Source](AutoHotInterceptor-Python-pypi/) |
-| Python/conda-forge | built_tested_requires_official_review | autohotinterceptor [Source](packaging/conda/) |
+| Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [autohotinterceptor](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [autohotinterceptor](https://crates.io/crates/autohotinterceptor) [Source](AutoHotInterceptor-Rust-cargo/) |
 | JavaScript/npm | awaiting_browser_publication_authentication | [autohotinterceptor](https://www.npmjs.com/package/autohotinterceptor) [Source](AutoHotInterceptor-JavaScript-npm/) |
 | Java/maven | published_install_verified | [autohotinterceptor](https://central.sonatype.com/artifact/io.github.titancsa/autohotinterceptor/1.0.0) [Source](AutoHotInterceptor-Java-maven/) |
