@@ -97,3 +97,34 @@ User-mode wrapper changes are MIT; original notices are retained. Portable AutoH
 ## Responsible use
 
 Created for lawful automation, accessibility, device customization, testing and research. You are responsible for authorization, applicable laws and third-party rules. TitanCSA and contributors do not endorse illegal use and provide the software **AS IS**, without warranties or liability to the extent permitted by law. Existing licenses and non-excludable legal rights remain applicable.
+
+<!-- central-sdk-packages:start -->
+## SDK : langages et installation
+
+Les sources, licences, guides API et exemples des SDK sont regroupes dans [le depot dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor). Choisis ton langage ci-dessous, puis execute sa commande dans le dossier de ton application.
+
+| Langage / registre | Disponibilite | Installation / utilisation |
+| --- | --- | --- |
+| C++ / vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install autohotinterceptor:x64-windows` |
+| C++ / Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=autohotinterceptor/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
+| C++ / NuGet natif | Publie et verifie | `Install-Package AutoHotInterceptor.Native -Version 1.0.0` |
+| C# / .NET | Publie et verifie | `dotnet add package AutoHotInterceptor --version 1.0.1` |
+| Python / pip | Pas encore disponible / validation en cours | Commande prevue apres publication : `python -m pip install autohotinterceptor==1.0.0` |
+| Python / Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge autohotinterceptor` |
+| Rust / Cargo | Publie et verifie | `cargo add autohotinterceptor@1.0.0` |
+| JavaScript et TypeScript / npm | Publie et verifie | `npm install autohotinterceptor@1.0.0` |
+| Java et Kotlin / Maven Central | Publie et verifie | `io.github.titancsa:autohotinterceptor:1.0.0 (pom.xml / Gradle)` |
+| Java et Kotlin / JitPack | Publie et verifie | `com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0 (avec le depot JitPack)` |
+| Go / Go Modules | Publie et verifie | `go get github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
+| Go / pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
+| PowerShell / Gallery | Publie et verifie | `Install-Module AutoHotInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| Dart et Flutter / pub.dev | Publie et verifie | `dart pub add autohotinterceptor:1.0.0` |
+| Ruby / RubyGems | Publie et verifie | `gem install autohotinterceptor -v 1.0.0` |
+| PHP / Composer | Pas encore disponible / validation en cours | Commande prevue apres publication : `composer require titancsa/autohotinterceptor:1.0.0` |
+
+Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [ces instructions](https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/README.md#c-et-c). Pour Java/Kotlin, le guide donne le bloc Maven/Gradle a ajouter. Windows x64 est requis pour les bindings natifs ; les pilotes/applications restent a installer separement.
+
+Les commandes indiquees comme prevues ne sont pas encore disponibles. Les versions Go/JitPack existantes utilisent les anciens tags conserves ; aucun ancien import Go n est renomme.
+
+[Guide complet, prerequis et exemples](https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/README.md).
+<!-- central-sdk-packages:end -->

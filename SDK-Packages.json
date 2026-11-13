@@ -3,71 +3,48 @@
   "packages": [
     {
       "directory": "packaging/native",
-      "build_system": "CMake",
-      "registry_recipes": {
-        "vcpkg": "packaging/native/portfile.cmake",
-        "Conan": "packaging/native/conanfile.py",
-        "NuGet": [
-          "packaging/native/TitanCSA.AutoHotInterceptor.Native.nuspec"
-        ]
-      },
-      "distribution": "Shared native source; registry publication is reported separately below"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/packaging/native",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "AutoHotInterceptor-NET-nuget",
-      "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/AutoHotInterceptor-NET-nuget",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "AutoHotInterceptor-Python-pypi",
-      "registry": "pypi",
-      "name": "autohotinterceptor",
-      "version": "1.0.0",
-      "distribution": "Source and GitHub release; registry publication tracked separately"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/AutoHotInterceptor-Python-pypi",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "AutoHotInterceptor-Ruby-rubygems",
-      "registry": "rubygems",
-      "name": "autohotinterceptor",
-      "version": "1.0.0",
-      "distribution": "Source and GitHub release; registry publication tracked separately"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/AutoHotInterceptor-Ruby-rubygems",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "AutoHotInterceptor-Dart-pub-dev",
-      "registry": "pub.dev",
-      "name": "autohotinterceptor",
-      "version": "1.0.0",
-      "distribution": "Native Dart FFI SDK; explicit DLL bundling for deployed Flutter apps"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/AutoHotInterceptor-Dart-pub-dev",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "AutoHotInterceptor-Java-maven",
-      "registries": [
-        "Maven Central",
-        "JitPack"
-      ],
-      "coordinates": "io.github.titancsa:autohotinterceptor:1.0.0",
-      "jitpack_coordinates": "com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0",
-      "distribution": "One Java source directory with registry-specific POM descriptors"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/AutoHotInterceptor-Java-maven",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "AutoHotInterceptor-PowerShell-gallery",
-      "registry": "PowerShell Gallery",
-      "name": "AutoHotInterceptor",
-      "version": "1.0.0",
-      "distribution": "Compiled helper, native DLL, cmdlet help and API documentation"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/AutoHotInterceptor-PowerShell-gallery",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "AutoHotInterceptor-Go-modules",
-      "registry": "Go Modules",
-      "module": "github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules",
-      "version": "v1.0.0",
-      "distribution": "Public Go module with embedded product DLL"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/AutoHotInterceptor-Go-modules",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "packaging/conda",
-      "language": "Python",
-      "registry": "conda-forge",
-      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/packaging/conda",
+      "location": "central_sdk_repository"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
@@ -158,8 +135,7 @@
       "v1_source_build_tests_passed": true,
       "personal_maintainer_confirmation_required": true,
       "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35622",
-      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
-      "github_directory": "packaging/conda"
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation"
     },
     "Rust/cargo": {
       "status": "published_install_verified",
@@ -289,7 +265,7 @@
       "repository": "https://github.com/TitanCSA/autohotinterceptor-php"
     }
   },
-  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",
+  "coverage_note": "SDK source directories moved to central repository. Product source, prior tags and original releases are separate.",
   "input_c_abi": {
     "directory": "AutoHotInterceptor-C-ffi",
     "dll": "AutoHotInterceptorBridge.dll",
@@ -297,5 +273,8 @@
     "input_mask": 3,
     "controller_mask": 0,
     "synthetic_and_production_tests_passed": true
-  }
+  },
+  "central_sdk_repository": "https://github.com/TitanCSA/sdk-packages",
+  "central_sdk_directory": "projects/AutoHotInterceptor",
+  "central_sdk_source_commit": "5da8260cfafc42181dbcca6196868d049f2b3ebb"
 }
