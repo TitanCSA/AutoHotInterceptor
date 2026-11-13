@@ -109,7 +109,8 @@
       "registry_published": false,
       "consumer_build_verified": true,
       "documentation_bundled": true,
-      "publication_on_hold_by_owner": true
+      "publication_on_hold_by_owner": false,
+      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
     },
     "NET/nuget": {
       "status": "paused_pending_owner_email_confirmation",
@@ -118,7 +119,8 @@
       "registry_published": false,
       "consumer_build_verified": true,
       "documentation_bundled": true,
-      "publication_on_hold_by_owner": true
+      "publication_on_hold_by_owner": false,
+      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
     },
     "Python/pypi": {
       "status": "built_fixture_and_production_verified",
