@@ -175,14 +175,14 @@
       "api_prefix": "autohotinterceptor_"
     },
     "JavaScript/npm": {
-      "status": "submitted_requires_indexing",
+      "status": "published_install_verified",
       "name": "autohotinterceptor",
       "version": "1.0.0",
       "directory": "AutoHotInterceptor-JavaScript-npm",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
-      "url": null,
-      "public_consumer_verified": false,
+      "url": "https://www.npmjs.com/package/autohotinterceptor",
+      "public_consumer_verified": true,
       "module": "autohotinterceptor",
       "dll_name": "AutoHotInterceptorBridge.dll",
       "api_prefix": "autohotinterceptor_"
