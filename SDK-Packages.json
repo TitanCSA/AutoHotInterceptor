@@ -38,6 +38,16 @@
       "name": "autohotinterceptor",
       "version": "1.0.0",
       "distribution": "Native Dart FFI SDK; explicit DLL bundling for deployed Flutter apps"
+    },
+    {
+      "directory": "AutoHotInterceptor-Java-maven",
+      "registries": [
+        "Maven Central",
+        "JitPack"
+      ],
+      "coordinates": "io.github.titancsa:autohotinterceptor:1.0.0",
+      "jitpack_coordinates": "com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0",
+      "distribution": "One Java source directory with registry-specific POM descriptors"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
@@ -98,10 +108,16 @@
       "status": "binding_not_implemented"
     },
     "Java/maven": {
-      "status": "binding_not_implemented"
+      "status": "jar_sources_javadoc_and_product_fixture_verified",
+      "coordinates": "io.github.titancsa:autohotinterceptor:1.0.0",
+      "directory": "AutoHotInterceptor-Java-maven",
+      "registry_published": false
     },
     "Java/jitpack": {
-      "status": "binding_not_implemented"
+      "status": "source_ready_requires_remote_build",
+      "coordinates": "com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0",
+      "directory": "AutoHotInterceptor-Java-maven",
+      "registry_published": false
     },
     "Go/modules": {
       "status": "binding_not_implemented"
