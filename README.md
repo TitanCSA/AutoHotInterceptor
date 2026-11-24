@@ -72,7 +72,7 @@ The physical **Ctrl+Alt+Delete** combination revokes capture. Driver errors/expi
 
 ## Demo and files
 
-The bundled driver is the existing **one-hour demo per Windows kernel boot**, shared with this edition's other applications. Its allowance begins with capture, including opening the monitor. Closing/reinstalling does not reset it. At expiry physical input passes through and capture/injection stop. Use Windows **Restart** for another allowance. For the unrestricted driver, contact **`titancsa` on Discord**.
+The bundled driver is the existing **one-hour demo per Windows kernel boot**, shared with this edition's other applications. Its allowance begins with capture, including opening the monitor. Closing/reinstalling does not reset it. At expiry physical input passes through and capture/injection stop. Use Windows **Restart** for another allowance. [Get the licensed Release](https://licences.configcsa.com/interceptor-keyboard-mouse).
 
 ```text
 AutoHotInterceptor.exe  Portable launcher
