@@ -16,6 +16,8 @@ This is an adaptation of [evilC/AutoHotInterception](https://github.com/evilC/Au
 
 ## Start in three steps
 
+The [second-keyboard quickstart](https://titancsa.github.io/guides/autohotkey-remap-second-keyboard/) includes a downloadable AutoHotkey v2 script that asks which keyboard to remap.
+
 1. Download **AutoHotInterceptor-1.0.0-win64.zip** and extract the **entire** ZIP.
 2. Open **AutoHotInterceptor.exe** → **Install / repair driver**. Accept administrator approval and choose **Install / reinstall**. Restart Windows if setup requests it.
 3. Select AutoHotkey v2 or v1, then **Open input monitor**. Check a device to observe it. Copy its VID/PID or hardware ID into a script, or start with **Remap A to B.ahk**.
@@ -117,12 +119,7 @@ Les anciens imports Go et versions JitPack gardent leurs tags. Pour les ancienne
 <!-- central-sdk-packages:end -->
 
 <!-- full-version-contact:start -->
-> [!IMPORTANT]
-> **Get the full driver version without demo restrictions**
+> **Licensed Release** · [Buy Interceptor Keyboard & Mouse directly](https://licences.configcsa.com/interceptor-keyboard-mouse).
 >
-> **Discord username: `titancsa`**
->
-> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full driver version without the demo time limit**, and mention **AutoHotInterceptor**.
->
-> The demo limit belongs to **Interceptor Keyboard & Mouse**, the driver used by this project. Ask for pricing and the appropriate license / activation instructions; the application or wrapper source keeps its existing license.
+> For integration, OEM and support questions, contact `titancsa` on Discord.
 <!-- full-version-contact:end -->
