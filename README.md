@@ -3,7 +3,9 @@
 <!-- simple-start:start -->
 Set a shortcut to work on only one keyboard, even if another keyboard is connected.
 
-**Try it**
+[First steps](#first-steps) · [Develop](#sdk-and-packages) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
 
 1. Download the [Windows ZIP](https://github.com/TitanCSA/AutoHotInterceptor/releases/latest) and extract it.
 2. Open **AutoHotInterceptor.exe** and choose **Install / repair driver**. Restart Windows if asked.
@@ -111,30 +113,9 @@ User-mode wrapper changes are MIT; original notices are retained. Portable AutoH
 Created for lawful automation, accessibility, device customization, testing and research. You are responsible for authorization, applicable laws and third-party rules. TitanCSA and contributors do not endorse illegal use and provide the software **AS IS**, without warranties or liability to the extent permitted by law. Existing licenses and non-excludable legal rights remain applicable.
 
 <!-- central-sdk-packages:start -->
-## Paquets et installation
+<a name="paquets-et-installation"></a>
 
-Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor). Choisis le paquet a installer puis execute sa commande dans son dossier.
+## SDK and packages
 
-| Registre | Paquet | Installation / utilisation |
-| --- | --- | --- |
-| vcpkg | `autohotinterceptor` | `vcpkg install autohotinterceptor:x64-windows` |
-| Conan | `autohotinterceptor` | `conan install --requires=autohotinterceptor/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `AutoHotInterceptor.Native` | `Install-Package AutoHotInterceptor.Native -Version 1.0.0` |
-| NuGet | `AutoHotInterceptor` | `dotnet add package AutoHotInterceptor --version 1.0.1` |
-| PyPI | `autohotinterceptor` | Commande prevue apres publication : `python -m pip install autohotinterceptor==1.0.0` |
-| Conda | `autohotinterceptor` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge autohotinterceptor` (canal TitanCSA) |
-| crates.io | `autohotinterceptor` | `cargo add autohotinterceptor@1.0.0` |
-| npm | `autohotinterceptor` | `npm install autohotinterceptor@1.0.0` |
-| Maven Central | `io.github.titancsa:autohotinterceptor` | `io.github.titancsa:autohotinterceptor:1.0.0 (pom.xml / Gradle)` |
-| JitPack | `com.github.TitanCSA:AutoHotInterceptor` | `com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| Go Modules | `github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules` | `go get github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
-| pkg.go.dev | `github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
-| PowerShell Gallery | `AutoHotInterceptor` | `Install-Module AutoHotInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `autohotinterceptor` | `dart pub add autohotinterceptor:1.0.0` |
-| RubyGems | `autohotinterceptor` | `gem install autohotinterceptor -v 1.0.0` |
-| Packagist | `titancsa/autohotinterceptor` | `composer require titancsa/autohotinterceptor:1.0.0` |
-
-Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
-
-Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
+Choose a language in the [SDK and package guide](https://github.com/TitanCSA/sdk-packages/tree/main/projects/AutoHotInterceptor#readme) for exact install commands and examples. If your example requires a driver or app, install it separately.
 <!-- central-sdk-packages:end -->
