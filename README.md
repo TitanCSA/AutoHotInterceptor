@@ -1,5 +1,15 @@
 # AutoHotInterceptor
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the version without the one-hour demo limit**
+>
+> **Discord · `titancsa`**. Open [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send a message.
+> Mention **AutoHotInterceptor** and ask for the full **Interceptor Keyboard & Mouse** driver. TitanCSA will share the purchase details privately.
+>
+> **FR · Version sans la limite d’une heure.** Ajoute **`titancsa`** sur Discord et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+<!-- full-version-contact:end -->
+
 The matching Interceptor-Keyboard-Mouse demo driver source is available; see
 [driver/README.md](driver/README.md) for build instructions and separate
 evaluation-source terms. Those terms apply to Titan-authored driver code. Third-party
@@ -72,7 +82,7 @@ The physical **Ctrl+Alt+Delete** combination revokes capture. Driver errors/expi
 
 ## Demo and files
 
-The bundled driver is the existing **one-hour demo per Windows kernel boot**, shared with this edition's other applications. Its allowance begins with capture, including opening the monitor. Closing/reinstalling does not reset it. At expiry physical input passes through and capture/injection stop. Use Windows **Restart** for another allowance. [Get the licensed Release](https://licences.configcsa.com/interceptor-keyboard-mouse).
+The bundled driver is the existing **one-hour demo per Windows kernel boot**, shared with this edition's other applications. Its allowance begins with capture, including opening the monitor. Closing/reinstalling does not reset it. At expiry physical input passes through and capture/injection stop. Use Windows **Restart** for another allowance. [Contact titancsa on Discord](https://titancsa.github.io/about/evidence/#release-contact).
 
 ```text
 AutoHotInterceptor.exe  Portable launcher
@@ -118,8 +128,4 @@ Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide compl
 Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
 <!-- central-sdk-packages:end -->
 
-<!-- full-version-contact:start -->
-> **Licensed Release** · [Buy Interceptor Keyboard & Mouse directly](https://licences.configcsa.com/interceptor-keyboard-mouse).
->
-> For integration, OEM and support questions, contact `titancsa` on Discord.
-<!-- full-version-contact:end -->
+
