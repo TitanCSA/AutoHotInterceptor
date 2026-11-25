@@ -1,14 +1,24 @@
 # AutoHotInterceptor
 
+<!-- simple-start:start -->
+Set a shortcut to work on only one keyboard, even if another keyboard is connected.
+
+**Try it**
+
+1. Download the [Windows ZIP](https://github.com/TitanCSA/AutoHotInterceptor/releases/latest) and extract it.
+2. Open **AutoHotInterceptor.exe** and choose **Install / repair driver**. Restart Windows if asked.
+3. Open the input monitor, choose your keyboard and try **Remap A to B.ahk**.
+<!-- simple-start:end -->
+
 <!-- full-version-contact:start -->
 > [!IMPORTANT]
-> **Get the version without the one-hour demo limit**
+> **Version without the one-hour demo limit**
 >
-> **Discord · `titancsa`**. Open [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send a message.
-> Mention **AutoHotInterceptor** and ask for the full **Interceptor Keyboard & Mouse** driver. TitanCSA will share the purchase details privately.
->
-> **FR · Version sans la limite d’une heure.** Ajoute **`titancsa`** sur Discord et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+> In [Discord](https://discord.com/app), choose **Add Friend** and enter **`titancsa`**. Mention **AutoHotInterceptor** and ask for the full **Interceptor Keyboard & Mouse** driver. Purchase details are sent privately.
 <!-- full-version-contact:end -->
+
+<details>
+<summary>Project details and screenshots</summary>
 
 The matching Interceptor-Keyboard-Mouse demo driver source is available; see
 [driver/README.md](driver/README.md) for build instructions and separate
@@ -24,9 +34,10 @@ This is an adaptation of [evilC/AutoHotInterception](https://github.com/evilC/Au
 
 ![Input monitor running in the isolated Windows test VM](docs/images/monitor.png)
 
+</details>
+
 ## Start in three steps
 
-The [second-keyboard quickstart](https://titancsa.github.io/guides/autohotkey-remap-second-keyboard/) includes a downloadable AutoHotkey v2 script that asks which keyboard to remap.
 
 1. Download **AutoHotInterceptor-1.0.0-win64.zip** and extract the **entire** ZIP.
 2. Open **AutoHotInterceptor.exe** → **Install / repair driver**. Accept administrator approval and choose **Install / reinstall**. Restart Windows if setup requests it.
@@ -127,5 +138,3 @@ Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide compl
 
 Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
 <!-- central-sdk-packages:end -->
-
-
